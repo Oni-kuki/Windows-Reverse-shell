@@ -1,5 +1,5 @@
 # Bad Rabbit  
-## Windows-UDP-Reverse-shell 
+## Windows-Reverse-shell 
 
 ## NetCore compiling   
 
