@@ -79,7 +79,7 @@ foreach($item in (Get-ChildItem $Dir -Recurse -Include *.docx, *.txt, *.xlsx, *.
 ### We can add any type of file extension and change the folder where we want to extract the data  
 
 
-### Final step for the success of our exploit; encode in base 64 to bypass the execution problems  
+### Final step for the success of our exploit; convert string to UTF-16LE and encode in base 64 to bypass the execution problems  
 we can use this links but is completely possible to make it in terminal  
 https://raikia.com/tool-powershell-encoder/
 ```sh
